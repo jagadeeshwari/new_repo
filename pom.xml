@@ -13,6 +13,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <properties>
+  <sonar.branch>new_sonar_build</sonar.branch>
+  </properties>
+
+<profiles>
+  <profile>
+    <id>sonar</id>
+    <properties>
+      <sonar.profile>Sonar way</sonar.profile>
+    </properties>
+  </profile>
+</profiles>
 
   <dependencies>
     <dependency>
