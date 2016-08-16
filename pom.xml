@@ -13,7 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.sources>src</sonar.sources>
-    <sonar.exclusions>file:**/src/main/java/**/*_.*</sonar.exclusions>
+    <sonar.exclusions>**/src/main/java/../App.java</sonar.exclusions>
   </properties>
 
   <dependencies>
